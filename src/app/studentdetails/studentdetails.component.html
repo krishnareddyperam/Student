@@ -1,0 +1,5 @@
+<div>
+  <div *ngFor="let x of students" (click)="onSelect(x)">
+    <div>{{x.id}} {{x.name}}{{x.email}} {{x.address}}</div>
+  </div>
+</div> 
